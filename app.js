@@ -17,7 +17,7 @@ var stock  = require('./stock');
  * Setup the Express engine
 **/
 var app = express();
-app.set('port', process.env.PORT || 80);
+app.set('port', process.env.PORT || 8080);
 app.set('view engine', 'ejs');
 
 // Stuff to do for all routes
